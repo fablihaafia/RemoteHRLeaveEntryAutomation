@@ -61,7 +61,7 @@ Fills out the phone number (0987654) and leave address (test).</br>
 Adds a reason for the leave (test).</br>
 Submit the Form:</br>
 
-Clicks on the "Submit" button to submit the leave request.
+Clicks on the "Submit" button to submit the leave request.</br>
 **Close Browser: After the form is submitted, the browser is closed using driver.quit().**</br>
 
 **Code Explanation**</br>
