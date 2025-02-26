@@ -4,11 +4,11 @@
 This project automates the process of logging into a web application and entering leave data using Selenium WebDriver with Java. The automation script is written using TestNG for easy testing and WebDriverManager for handling the browser driver setup.
 
 **Prerequisites**
-*Java (JDK 8 or later)
-*Selenium WebDriver
-*TestNG
-*WebDriverManager
-Maven (for managing dependencies)
+Java (JDK 8 or later) </br>
+Selenium WebDriver</br>
+TestNG</br>
+WebDriverManager</br>
+Maven (for managing dependencies)</br>
 **Technologies Used**
 Selenium WebDriver: For automating the browser actions.
 TestNG: For structuring the tests and enabling features like annotations.
