@@ -9,67 +9,67 @@ Selenium WebDriver</br>
 TestNG</br>
 WebDriverManager</br>
 Maven (for managing dependencies)</br>
-**Technologies Used**
-Selenium WebDriver: For automating the browser actions.
-TestNG: For structuring the tests and enabling features like annotations.
-WebDriverManager: Automatically handles the browser driver setup.
-Maven: For managing project dependencies.
+**Technologies Used**</br>
+Selenium WebDriver: For automating the browser actions.</br>
+TestNG: For structuring the tests and enabling features like annotations.</br>
+WebDriverManager: Automatically handles the browser driver setup.</br>
+Maven: For managing project dependencies.</br>
 
-**Setup**
-**Step 1: Clone the repository**
-Clone the repository to your local machine using:
+**Setup**</br>
+**Step 1: Clone the repository**</br>
+Clone the repository to your local machine using:</br>
 
-bash
-Copy
-git clone https://github.com/your-username/leave-entry-automation.git
-**Step 2: Install Dependencies**
-If you're using Maven, the dependencies will be automatically handled in the pom.xml. Make sure you have Maven installed, then run the following command to download the necessary libraries:
+bash</br>
+Copy</br>
+git clone https://github.com/your-username/leave-entry-automation.git</br>
+**Step 2: Install Dependencies**</br>
+If you're using Maven, the dependencies will be automatically handled in the pom.xml. Make sure you have Maven installed, then run the following command to download the necessary libraries:</br>
 
-bash
-Copy
-mvn clean install
-**Step 3: Set up ChromeDriver**
-Make sure to use WebDriverManager to automatically manage the ChromeDriver setup. The code will set up the correct ChromeDriver version compatible with your installed Chrome browser.
+bash</br>
+Copy</br>
+mvn clean install</br>
+**Step 3: Set up ChromeDriver**</br>
+Make sure to use WebDriverManager to automatically manage the ChromeDriver setup. The code will set up the correct ChromeDriver version compatible with your installed Chrome browser.</br>
 
-**Step 4: Run the Test**
-To run the test, you can execute it from the terminal using Maven or directly from your IDE.
+**Step 4: Run the Test**</br>
+To run the test, you can execute it from the terminal using Maven or directly from your IDE.</br>
 
-From the terminal:
+**From the terminal:**</br>
 
-bash
-Copy
-mvn test
-Or you can directly run the test through your IDE as a TestNG suite.
+bash</br>
+Copy</br>
+mvn test</br>
+Or you can directly run the test through your IDE as a TestNG suite.</br>
 
-**Test Flow**
-The automation script performs the following steps:
+**Test Flow**</br>
+The automation script performs the following steps:</br>
 
-Navigate to the login page: The script first navigates to the login page of the web application (remoteHRLink).
+Navigate to the login page: The script first navigates to the login page of the web application (remoteHRLink).</br>
 
-Login:
+**Login:**</br>
 
-The script enters the username test@akij.net and password ******.
-Clicks the login button to authenticate the user.
-Navigate to Leave Entry Page:
+The script enters the username test@akij.net and password ******.</br>
+Clicks the login button to authenticate the user.</br>
+Navigate to Leave Entry Page:</br>
 
-After login, it navigates to the dashboard and clicks on the "Leave Entry" option.
-Leave Entry Form Filling:
+After login, it navigates to the dashboard and clicks on the "Leave Entry" option.</br>
+Leave Entry Form Filling:</br>
 
-Selects the leave type as Medical Leave.
-Enters the start date and end date of the leave (02-26-2025 to 02-27-2025).
-Fills out the phone number (0987654) and leave address (test).
-Adds a reason for the leave (test).
-Submit the Form:
+Selects the leave type as Medical Leave.</br>
+Enters the start date and end date of the leave (02-26-2025 to 02-27-2025).</br>
+Fills out the phone number (0987654) and leave address (test).</br>
+Adds a reason for the leave (test).</br>
+Submit the Form:</br>
 
 Clicks on the "Submit" button to submit the leave request.
-Close Browser: After the form is submitted, the browser is closed using driver.quit().
+**Close Browser: After the form is submitted, the browser is closed using driver.quit().**</br>
 
-**Code Explanation**
-Setting up the WebDriver:
+**Code Explanation**</br>
+Setting up the WebDriver:</br>
 
 We are using WebDriverManager to automatically handle the ChromeDriver installation and setup.
-driver.navigate().to() is used to open the login URL in the browser.
-Login:
+driver.navigate().to() is used to open the login URL in the browser.</br>
+**Login:**</br>
 
 The username and password are entered using sendKeys() method.
 The login button is clicked using click().
