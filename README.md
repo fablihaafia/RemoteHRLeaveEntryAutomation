@@ -3,7 +3,7 @@
 **Selenium Leave Entry Automation**
 This project automates the process of logging into a web application and entering leave data using Selenium WebDriver with Java. The automation script is written using TestNG for easy testing and WebDriverManager for handling the browser driver setup.
 
-**Prerequisites**
+**Prerequisites**</br>
 Java (JDK 8 or later) </br>
 Selenium WebDriver</br>
 TestNG</br>
