@@ -21,7 +21,7 @@ Clone the repository to your local machine using:</br>
 
 bash</br>
 Copy</br>
-git clone https://github.com/your-username/leave-entry-automation.git</br>
+git clone(https://github.com/fablihaafia/RemoteHRLeaveEntryAutomation.git)</br>
 **Step 2: Install Dependencies**</br>
 If you're using Maven, the dependencies will be automatically handled in the pom.xml. Make sure you have Maven installed, then run the following command to download the necessary libraries:</br>
 
