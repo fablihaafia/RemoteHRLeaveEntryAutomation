@@ -10,10 +10,10 @@ TestNG</br>
 WebDriverManager</br>
 Maven (for managing dependencies)</br>
 **Technologies Used**</br>
-Selenium WebDriver: For automating the browser actions.</br>
-TestNG: For structuring the tests and enabling features like annotations.</br>
-WebDriverManager: Automatically handles the browser driver setup.</br>
-Maven: For managing project dependencies.</br>
+**Selenium WebDriver:** For automating the browser actions.</br>
+**TestNG:** For structuring the tests and enabling features like annotations.</br>
+**WebDriverManager:** Automatically handles the browser driver setup.</br>
+**Maven:** For managing project dependencies.</br>
 
 **Setup**</br>
 **Step 1: Clone the repository**</br>
