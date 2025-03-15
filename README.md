@@ -75,3 +75,5 @@ After a successful login, the script locates the "Leave Entry" page by navigatin
 
 <b>Filling the Leave Entry Form:</b>  
 The leave type is selected and the start/end date is set using <code>sendKeys()</code> to input dates. Personal details like phone number and leave address are also filled out before submitting the form.
+
+
